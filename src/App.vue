@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <step3></step3>
+    <step4List></step4List>
   </div>
 </template>
 
 <script>
-import step3 from './components/step3'
+import step4List from './components/step4List'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -13,7 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default {
   name: 'App',
   components: {
-    step3
+    step4List
   }
 }
 </script>
